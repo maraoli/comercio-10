@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+/*RESET*/
+html,body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+ul, p{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*VARIAVEIS*/
+body{
+    --bg-primary: #CF6E8E;
+    --bg-secondary: #8A1964;
+    --bg-terceira: #DDAFE4;
+    --bg-product: #633721;
+    --bg-clean: #FFFAFA;
+
+    --txt-color: white;
+
+    --txt-primary: white;
+
+    --font-primary: 'Sansita Swashed', cursive;
+    --font-secondary: 'Barlow Condensed', sans-serif;
+    --font-terceira: 'Open Sans Condensed', sans-serif;
+}

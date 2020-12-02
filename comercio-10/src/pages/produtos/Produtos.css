@@ -1,0 +1,124 @@
+.produtos__container{
+    margin: 0px auto;
+    max-width: 1000px;
+
+    display: flex;
+    flex-grow: unset;
+}
+
+.produtos__arrow , #produtos-open__aside{
+    display: none;
+}
+
+.produtos__lista{
+    background: var(--bg-primary);
+    width: 200px;
+    padding-top: 40px;
+}
+
+.produtos__produtos{
+    background: #e5d1e7;
+    width: 100%;
+    padding: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produtos__produto{
+    background: var(--bg-product);
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+    font-family: var(--font-primary);
+}
+
+.produtos__produto img{
+    min-width: 200px;
+    max-height: 100px;
+}
+
+.produtos__produto div{
+    padding: 5px 10px;
+}
+
+.produtos-open__aside{
+    display: none;
+}
+
+.produtos__lista{
+    font-family: var(--font-primary);
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 20px;
+    width: 300px;
+}
+
+.produtos__lista ul li{
+    margin-bottom: 50px;
+}
+
+.produtos__lista ul li:hover{
+    color: var(--bg-secondary)
+}
+
+
+
+@media(max-width: 360px){
+    .produtos__container{
+        display: inline;
+    }
+
+    .produtos__arrow , #produtos-open__aside{
+        display: initial;
+    }
+
+    .produtos-open__aside{
+        display: inherit;
+    }
+
+    .produtos__lista{
+        position: absolute;
+        width: 300px;
+    }
+
+    .produtos__produtos{
+        justify-content: center;
+    }
+
+    .produtos__arrow{
+        background-color: var(--bg-secondary);
+        color: white;
+        font-size: 30px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 5px;
+        position: absolute;
+        z-index: 3;
+        margin-top: 10px;
+    }
+    
+    #produtos-open__aside{
+        position: absolute;
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0);
+        opacity: 0;
+        margin-top: 10px;
+    }
+    
+    #produtos-open__aside:checked ~ .produtos__lista{
+        position: absolute;
+        left: -300px;
+        transition: left 1.5s;
+        z-index: -1;
+    }
+}

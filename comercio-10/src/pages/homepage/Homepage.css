@@ -40,6 +40,7 @@
     width: 100%;
     height: 100vh;
     color: white;
+    font-family: var(--font-terceira);
 }
 
 .sessao h1{
@@ -53,7 +54,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+
+.sobre_conteudo p{
+    text-align: left;
+    width: 200px;
+    font-size: 21px;
+    font-family: var(--font-terceira);
+    margin-right: 90px;
 }
 
 .servicos{
@@ -98,4 +108,23 @@
 
 .sessao_contatos{
     height: calc(100vh - 100px);
+}
+
+.sessao_contatos .contatos{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    margin-left: 50px;
+}
+
+.sessao_contatos p{
+    font-size: 25px;
+    text-align: left;
+}
+
+.sessao_contatos p:first-child{
+    margin-bottom: 30px;
 }

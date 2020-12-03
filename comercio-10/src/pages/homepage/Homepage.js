@@ -1,6 +1,7 @@
 import React from 'react';
 import PageDefault from '../../components/pageDefault/PageDefault';
 import bkg_store from '../../assets/background_store.jpg';
+import img_sobre from '../../assets/sobre.png';
 import {Link} from 'react-router-dom';
 import './Homepage.css';
 
@@ -19,7 +20,7 @@ export default function Homepage(){
                     <h1>O que é a Comércio 10?</h1>
                     <div className="sobre_conteudo">
                         <p>Aqui na Comércio 10 você pode tirar esse sonho do papel, pois além de contarmos com uma assesoria especializada para colocar a sua empresa nas nuvens temos um time especialista em consultoria para você não perder o financeiro de controle quando suas vendas aumentarem.</p>
-                        {/* <img src={} alt="nossa empresa" /> */}
+                        <img src={img_sobre} alt="nossa empresa" />
                     </div>
                 </section>
 
@@ -45,6 +46,11 @@ export default function Homepage(){
 
                 <section className="sessao sessao_contatos" id="sessao_contatos">
                     <h1>Contatos</h1>
+                    <div className="contatos">
+                        <p>Ficou com alguma dúvida? Entre em contado em um de nossos canais de suporte:</p>
+                        <p>mail@suporte.com.br</p>
+                        <p>(11)98888-8888</p>
+                    </div>
                 </section>  
             </div>
         </PageDefault>

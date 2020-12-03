@@ -129,6 +129,10 @@
     margin-bottom: 30px;
 }
 
+.contatos{
+    margin: 0 auto;
+}
+
 @media(max-width: 360px){
     .sobre_conteudo img{
         margin-top: 50px;

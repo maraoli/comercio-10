@@ -5,6 +5,7 @@
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header__logo{
@@ -18,22 +19,22 @@
 
 .header__img{
     margin-left: 30px;
-    max-width: 70px;
+    max-width: 200px;
     max-height: 50px;
 }
 
-.logo__title{
-    color: var(--txt-color);
-    font-size: 20px;
-    font-family: 'Sansita Swashed', cursive;
-}
-
-.header__search{
-    width: 300px;
-    height: 30px;
-    margin-left: 10%;
-    border: 2px solid var(--bg-secondary);
+.header__login{
+    background-color: var(--bg-terceira);
     border-radius: 10px;
+    margin-right: 15px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width: 600px){
@@ -41,9 +42,5 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .header__search{
-        display: none;
     }
 }

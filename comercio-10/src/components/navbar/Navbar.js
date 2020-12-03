@@ -13,9 +13,9 @@ export default function Navbar(){
             <div className="nav__container">
                 <ul className="nav__itens">
                     <li className="nav__item"><Link to="/">Home</Link></li>
-                    <li className="nav__item"><Link to="/produtos">Produtos</Link></li>
-                    <li className="nav__item"><Link to="/contato">Contato</Link></li>
                     <li className="nav__item"><Link to="/sobre">Sobre</Link></li>
+                    <li className="nav__item"><Link to="/produtos">Serviços</Link></li>
+                    <li className="nav__item"><Link to="/contato">Contato</Link></li>
                 </ul>
             </div>
         </div>
@@ -23,8 +23,8 @@ export default function Navbar(){
         <div className="nav__container">
            <ul className="nav__itens">
                <li className="nav__item"><Link to="/">Home</Link></li>
-               <li className="nav__item"><Link to="/produtos">Produtos</Link></li>
                <li className="nav__item"><Link to="/contato">Contato</Link></li>
+               <li className="nav__item"><Link to="/produtos">Serviços</Link></li>
                <li className="nav__item"><Link to="/sobre">Sobre</Link></li>
            </ul>
         </div>

@@ -1,9 +1,9 @@
 .footer__container{
-    background: var(--bg-primary);
+    background: black;
     border-top: 3px solid var(--bg-secondary);
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 100px;
     padding: 0 30px;
     align-items: center;
@@ -12,24 +12,6 @@
     font-size: 20px;
 }
 
-.footer__contatos{
-    text-align: center;
-}
-
-.footer__contatos p{
-    color: var(--bg-secondary);
-    font-size: 15px;
-}
-
-.footer__pagamentos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer__pagamentos img{
-    width: 150px;
-}
 
 @media(max-width: 360px){
     .footer__container{

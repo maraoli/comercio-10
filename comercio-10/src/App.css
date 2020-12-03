@@ -25,9 +25,10 @@ a{
 
 /*VARIAVEIS*/
 body{
-    --bg-primary: #CF6E8E;
-    --bg-secondary: #8A1964;
-    --bg-terceira: #DDAFE4;
+    --bg-primary: #073035;
+    --bg-secondary: #2ACFC5;
+    --bg-terceira: #0592A5;
+    --bg-strong-4: #0C225B;
     --bg-product: #633721;
     --bg-clean: #FFFAFA;
 

@@ -6,12 +6,26 @@ import './Homepage.css';
 export default function Homepage(){
     return(
         <PageDefault>
-            <div className="home__container"> 
-                <div className="home__bkgStoreOver">
-                    <h1 className="home__header-text">Sua loja como você sempre sonhou.</h1>
-                </div>
-                <img className="home__bkgStore" src={bkg_store} alt="background of store"/>
-                
+            <div className="home__container">
+                <section className="sessao_home">  
+                    <div className="home__bkgStoreOver">
+                        <h1 className="home__header-text">Sua loja como você sempre sonhou.</h1>
+                    </div>
+                    <img className="home__bkgStore" src={bkg_store} alt="background of store"/>
+                </section>
+
+                <section className="sessao sessao_sobre" id="sessao_sobre">
+                    <h1>O que é a Comércio 10?</h1>
+                    <p>Aqui na Comércio 10 você pode tirar esse sonho do papel, pois além de contarmos com uma assesoria especializada para colocar a sua empresa nas nuvens temos um time especialista em consultoria para você não perder o financeiro de controle quando suas vendas aumentarem.</p>
+                </section>
+
+                <section className="sessao sessao_servicos" id="sessao_servicos">
+                    <h1>Que tal conhecer um de nossos serviços?</h1>
+                </section> 
+
+                <section className="sessao sessao_contatos" id="sessao_contatos">
+                    <h1>Contatos</h1>
+                </section>  
             </div>
         </PageDefault>
     )

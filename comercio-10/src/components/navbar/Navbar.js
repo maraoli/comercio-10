@@ -1,6 +1,6 @@
 import React from 'react';
-import './Navbar.css'
 import {Link} from 'react-router-dom';
+import './Navbar.css'
 
 export default function Navbar(){
     return(
@@ -13,9 +13,9 @@ export default function Navbar(){
             <div className="nav__container">
                 <ul className="nav__itens">
                     <li className="nav__item"><Link to="/">Home</Link></li>
-                    <li className="nav__item"><Link to="/sobre">Sobre</Link></li>
-                    <li className="nav__item"><Link to="/produtos">Serviços</Link></li>
-                    <li className="nav__item"><Link to="/contato">Contato</Link></li>
+                    <li className="nav__item"><a href="#sessao_sobre">Sobre</a></li>
+                    <li className="nav__item"><a href="#sessao_servicos">Serviços</a></li>
+                    <li className="nav__item"><a href="#sessao_contatos">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -23,9 +23,9 @@ export default function Navbar(){
         <div className="nav__container">
            <ul className="nav__itens">
                <li className="nav__item"><Link to="/">Home</Link></li>
-               <li className="nav__item"><Link to="/contato">Contato</Link></li>
-               <li className="nav__item"><Link to="/produtos">Serviços</Link></li>
-               <li className="nav__item"><Link to="/sobre">Sobre</Link></li>
+               <li className="nav__item"><a href="#sessao_sobre">Sobre</a></li>
+               <li className="nav__item"><a href="#sessao_servicos">Serviços</a></li>
+               <li className="nav__item"><a href="#sessao_contatos">Contato</a></li>
            </ul>
         </div>
         </>

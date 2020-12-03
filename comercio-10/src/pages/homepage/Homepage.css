@@ -4,6 +4,8 @@
 
 .home__bkgStore{
     position: relative;
+    height: calc(100vh - 120px);
+    width: 100%;
 }
 
 .home__bkgStoreOver{
@@ -11,7 +13,7 @@
     background-color: #c9f2f470;
     position: absolute;
     width: 100%;
-    height: 500px;
+    height: calc(100vh - 120px);
     z-index: 2;
     text-align: center;
     display: flex;
@@ -26,4 +28,26 @@
     font-size: 40px;
     position: relative;
     top: -30px;
+}
+
+.sessao_home{
+    height: calc(100vh - 120px);
+    overflow: hidden;
+}
+
+.sessao{
+    background: var(--bg-primary);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.sessao h1{
+    color: var(--bg-secondary);
+    font-family: var(--font-secondary);
+    font-size: 40px;
+}
+
+.sessao_contatos{
+    height: calc(100vh - 100px);
 }

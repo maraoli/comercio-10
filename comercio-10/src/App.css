@@ -10,7 +10,7 @@ div{
     box-sizing: border-box;
 }
 
-ul, p{
+h1, ul, p{
     margin: 0;
     padding: 0;
 }

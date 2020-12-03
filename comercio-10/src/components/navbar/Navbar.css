@@ -10,7 +10,7 @@
     width: 30px;
     height: 30px;
     transition: all .3s linear;
-    background: #8A1964;
+    background: var(--bg-terceira);
     display: inherit;
     border-radius: 5px;
     padding: 5px;

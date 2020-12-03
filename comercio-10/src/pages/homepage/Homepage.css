@@ -128,3 +128,53 @@
 .sessao_contatos p:first-child{
     margin-bottom: 30px;
 }
+
+@media(max-width: 360px){
+    .sobre_conteudo img{
+        margin-top: 50px;
+        width: 300px;
+    }
+    .sobre_conteudo p{
+        text-align: center;
+        margin: auto;
+        width: 300px;
+    }
+
+}
+
+@media(max-width: 592px){
+    .sobre_conteudo img{
+        width: 80%;
+    }
+
+    .servicos{
+        flex-direction: column;
+    }
+
+    .servico{
+        margin: 40px auto;
+        width: 180px;
+        height: 200px;
+    }
+
+    .servico p{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 992px){
+    .sobre_conteudo{
+        flex-direction: column-reverse;
+    }
+
+    .sobre_conteudo img{
+        margin-top: 50px;
+    }
+
+    .sobre_conteudo p{
+        text-align: center;
+        margin: auto;
+        width: 500px;
+        width: 80%;
+    }
+}

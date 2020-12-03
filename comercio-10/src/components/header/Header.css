@@ -37,10 +37,35 @@
     justify-content: center;
 }
 
-@media(max-width: 600px){
+.header__login-mob{
+    display: none;
+}
+
+@media(max-width: 360px){
+    .header__img{
+        width: 171px;
+    }
+
     .header__container{
+        justify-content: flex-end; 
+    }
+
+    .header__login{
+        display: none;
+    }
+
+    .header__login-mob{
+        display: inherit;
+        color: white;
+        font-size: 30px;
+        margin: auto 30px;
+    }
+}
+
+@media(max-width: 600px){
+    /* .header__container{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 }

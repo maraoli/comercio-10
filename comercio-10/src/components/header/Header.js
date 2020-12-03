@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css'
 import Logo from '../../assets/logo.png';
 import {Link} from 'react-router-dom';
+import {FaUserCircle} from 'react-icons/fa';
 
 export default function Header(){
     return(
@@ -13,6 +14,7 @@ export default function Header(){
             </Link>
             <Link to="/login">
                 <div className="header__login">Login</div>
+                <FaUserCircle className="header__login-mob" />
             </Link>
         </div>
     )

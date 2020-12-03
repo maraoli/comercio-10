@@ -20,13 +20,15 @@ li{
 }
 
 a{
-    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 /*VARIAVEIS*/
 body{
     --bg-primary: #073035;
     --bg-secondary: #2ACFC5;
+    --bg-secondary-light: #28bed1;
     --bg-terceira: #0592A5;
     --bg-strong-4: #0C225B;
     --bg-product: #633721;

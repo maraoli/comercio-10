@@ -46,6 +46,54 @@
     color: var(--bg-secondary);
     font-family: var(--font-secondary);
     font-size: 40px;
+    padding-top: 30px;
+}
+
+.sobre_conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 80%;
+}
+
+.servico{
+    background: var(--bg-terceira);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.servico:hover{
+    background: var(--bg-secondary-light);
+}
+
+.servico p{
+    width: 90px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+    text-align: left;
+    font-family: var(--font-terceira);
+}
+
+.servico p span{
+    color: var(--bg-strong-4)
+}
+
+.servico_2 p{
+    width: 130px;
 }
 
 .sessao_contatos{

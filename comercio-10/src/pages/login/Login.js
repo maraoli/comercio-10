@@ -19,7 +19,7 @@ export default function Login(){
                     </fieldset>
 
                     <div className="login_redirect">
-                        <Link to="/reset-senha"><span>Esqueci minha senha</span></Link>
+                        <Link to="/reset"><span>Esqueci minha senha</span></Link>
                         <Link to="/cadastro"><span>Não tenho cadastro</span></Link>
                     </div>
                 </div>

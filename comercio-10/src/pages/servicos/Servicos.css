@@ -1,0 +1,10 @@
+.s__servicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 217px);
+}
+
+.s__servico{
+    height: 250px;
+}

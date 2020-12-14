@@ -1,0 +1,20 @@
+.acomp__container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 217px);
+    align-items: center;
+    overflow: auto;
+}
+
+.acomp__card{
+    background: #7CC8D2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    height: 70px;
+    width: 600px;
+}

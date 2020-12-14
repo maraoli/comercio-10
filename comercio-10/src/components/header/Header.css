@@ -41,6 +41,18 @@
     display: none;
 }
 
+.header__login-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__name{
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
 @media(max-width: 360px){
     .header__img{
         width: 171px;
@@ -59,6 +71,10 @@
         color: white;
         font-size: 30px;
         margin: auto 30px;
+    }
+
+    .header__login-container{
+        flex-direction: column-reverse;
     }
 }
 

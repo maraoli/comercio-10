@@ -2,6 +2,10 @@
     background: var(--bg-primary);
 }
 
+.nav__container-2{
+    background: var(--bg-primary);
+}
+
 .nav__hamburguer{
     display: none;
 }
@@ -116,11 +120,24 @@
         z-index: 4;
     }
 
+    .nav__container-2{
+        position: absolute;
+        left: -310px;
+        top: 44px;
+        transition: left 1.5s;
+        z-index: 4;
+    }
+
     .nav__itens {
         display: inherit;
     }
 
     #hamburguer__check:checked ~ .nav__container{
+        left: -25px;
+        transition: left 1.5s;
+    }
+
+    #hamburguer__check:checked ~ .nav__container-2{
         left: -25px;
         transition: left 1.5s;
     }

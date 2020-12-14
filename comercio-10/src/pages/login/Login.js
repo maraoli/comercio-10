@@ -1,9 +1,12 @@
 import React from 'react';
 import PageDefault from '../../components/pageDefault/PageDefault';
-import {Link} from 'react-router-dom';
+import {Link, useHistory} from 'react-router-dom';
 import './Login.css'
 
 export default function Login(){
+
+    const history = useHistory();
+
     return(
         <PageDefault>
             <div className="login_container">
@@ -15,7 +18,17 @@ export default function Login(){
                         <label>Senha:</label>
                         <input type="password"/>
 
-                        <button className="login_button">Login</button>
+                        <button className="login_button" onClick={()=>{
+                            const data = {
+                                name: "Ana"
+                            }
+                        
+                            localStorage.setItem('user', JSON.stringify(data));
+
+                            history.push('/');
+                        }}>
+                            Login
+                        </button>
                     </fieldset>
 
                     <div className="login_redirect">

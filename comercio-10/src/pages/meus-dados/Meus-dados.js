@@ -7,13 +7,18 @@ export default function MeusDados(){
 
     return(
         <PageDefault>
-            <h1>Meus Dados</h1>
-            <p className="meus-dados__nome">Ana</p>
-            <p className="meus-dados__email">mail@mail.com</p>
-            <p className="meus-dados__telefone">(11)95535-5555</p>
+            <div className="meus-dados__container">
+                <div className="meus-dados__dados">
+                    <p className="meus-dados__nome">Ana Pereira Lima</p>
+                    <p className="meus-dados__email">mail@mail.com</p>
+                    <p className="meus-dados__telefone">(11)95535-5555</p>
+                </div>
 
-            <ButtonLink to="/" class="" text="Atualizar cadastro" />
-            <ButtonLink to="/" class="" text="Alterar Senha" />
+                <div className="meus-dados__botoes">
+                    <ButtonLink to="/" class="header__login meus-dados__button" text="Atualizar cadastro" />
+                    <ButtonLink to="/" class="header__login meus-dados__button" text="Alterar Senha" />
+                </div>
+            </div>
         </PageDefault>
     )
 }

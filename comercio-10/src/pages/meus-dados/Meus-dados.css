@@ -1,0 +1,29 @@
+.meus-dados__container{
+    height: calc(100vh - 217px);
+}
+
+.meus-dados__dados{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 70%;
+    margin: auto 300px;
+}
+
+.meus-dados__dados p {
+    margin: 10px;
+}
+
+.meus-dados__botoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.meus-dados__button{
+    width: 170px;
+    height: 40px;
+    margin: 10px;
+}

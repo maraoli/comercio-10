@@ -1,0 +1,70 @@
+.serv-site__container{
+    min-height: calc(100vh - 217px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serv-site__container fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.serv-site__container .serv-site__label{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+.serv-site__container .serv-site__label-2{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.serv-site__container .serv-site__input{
+    border-radius: 10px;
+    height: 30px;
+    width: 500px;
+}
+
+.serv-site__container .serv-site__textarea{
+    height: 90px;
+    border: 2px solid black;
+}
+
+.serv-site__checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+.serv-site__cont-checkbox{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.modelo{
+    min-width: 150px;
+    height: 150px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.serv-site-3__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+
+.serv-site__button-2{
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+}
+
+.serv-consult__cont-checkbox{
+    display: flex;
+    flex-direction: column;
+}
